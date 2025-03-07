@@ -4,13 +4,12 @@ public class VowelsConso {
 		
 		int vow = 0;
 		int conso = 0;
-		int space=0;
 		
 		
 		for(int i =0;i<str.length();i++) {
 			char ch= str.charAt(i);
 			if(ch !=' ') {
-				space++;
+				
 				if(ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U') {
 					vow++;
 				}
@@ -19,7 +18,7 @@ public class VowelsConso {
 				}
 			}
 		}
-		System.out.println("Vowels are : " +vow + " Conso are : " +conso+" space are : "+space);
+		System.out.println("Vowels are : " +vow + " Conso are : " +conso);
 		
 	}
 	
