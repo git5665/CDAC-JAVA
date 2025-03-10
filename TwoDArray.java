@@ -1,5 +1,7 @@
+package CDAC;
+
 import java.util.Scanner;
-public class TwoDArray {
+public class TwoDarray {
 
     public static void main(String args[]){
         Scanner scn = new Scanner(System.in);
@@ -9,7 +11,7 @@ public class TwoDArray {
         for(int i=0;i<3;i++){
             for(int j=0;j<4;j++){
 
-                arr[i][j] = scn.nextInt(); 
+                arr[i][j] = (int)(Math.random()*10); 
 
             }
         }
@@ -18,7 +20,7 @@ public class TwoDArray {
         for(int i=0;i<3;i++){
             for(int j=0;j<4;j++){
 
-                System.out.print("Here is two D array : " +arr[i][j]+ " " ); 
+                System.out.print(+arr[i][j]+ " " ); 
 
             }
             System.out.println();
